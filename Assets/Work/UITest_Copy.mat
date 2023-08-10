@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UITest_Copy
+  m_Shader: {fileID: 4800000, guid: e5011ff4e3c1d004eaf828760faca53b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackgroundTex:
+        m_Texture: {fileID: 2800000, guid: 6423e72b4c057864f805004487d6624e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeTex:
+        m_Texture: {fileID: 2800000, guid: 1667ac62a7b818b4e8d5394083e49abf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtendTex:
+        m_Texture: {fileID: 2800000, guid: cc85d3656c7b6fe468261daae3280d9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlithTex:
+        m_Texture: {fileID: 2800000, guid: 0bc3ae06e8ef4ee4fb1804f98dafb475, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlithTex2:
+        m_Texture: {fileID: 2800000, guid: 0bc3ae06e8ef4ee4fb1804f98dafb475, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ImageTex:
+        m_Texture: {fileID: 2800000, guid: 332852ccb99b4834eb14ac7198307377, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1667ac62a7b818b4e8d5394083e49abf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 750b1bd7ba8bd28489650de6d0a95cc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ExtendEdgeSize: 0.02
+    - _ExtendSize: 0.1
+    - _Float0: 0.65
+    - _GlithRedStrength: 17.69
+    - _ImageNoiseStrength: 0.004
+    - _MoveProcess: 0
+    - _Process: 0.105
+    - _Progress: 1
+    m_Colors:
+    - _1_ProgressRemapValue: {r: 0, g: 0.5, b: 0, a: 0}
+    - _BackgroundTexCol: {r: 0.4481132, g: 0.6614736, b: 1, a: 0.27450982}
+    - _EdgeBrightSquareCol: {r: 3.8901951, g: 17.83033, b: 23.968628, a: 1}
+    - _EdgeBrightSquareNoiseStrength_MinMax: {r: 0.6, g: 1, b: 0, a: 0}
+    - _EdgeBrightSquareReduceMult_DisProgress: {r: 1, g: 1.2, b: 0, a: 0}
+    - _EdgeBrightSquare_AddMultPow: {r: 0, g: 0.5, b: 1, a: 0}
+    - _EdgeTexCol: {r: 0.6745283, g: 0.7239303, b: 1, a: 1}
+    - _ExtendDistanceOffset_AddMulPow: {r: 0, g: 0.6, b: 1, a: 0}
+    - _ExtendEdgeCol: {r: 0.42149112, g: 1.1979221, b: 4.237095, a: 1}
+    - _ExtendEdgeImageTexCol: {r: 0.25943398, g: 0.5639659, b: 1, a: 1}
+    - _ExtendOffset_AddMulPow: {r: 0.1, g: 1, b: 0.25, a: 0}
+    - _ExtendSize: {r: 0.05, g: 0.025, b: 0, a: 0}
+    - _ExtendStartPos: {r: 0.92, g: 0.8, b: 0, a: 0}
+    - _ExtendStrenthOffset_AddMulPow: {r: 0, g: 1, b: 0.02, a: 0}
+    - _FirstProgressRemapValue: {r: 0, g: 0.5, b: 0, a: 0}
+    - _GlithPanSpeed: {r: 0.25, g: 0.3, b: 0, a: 0}
+    - _GlithRed_OffsetStrengthColorStrength: {r: 0.2, g: 2, b: 0, a: 0}
+    - _GlithTexReference_TillingOffset: {r: 1, g: 0.25, b: 0, a: -0.5}
+    - _GlithTexStepPanNoise_ScalePowMult: {r: 0.95, g: 5, b: 20, a: 1}
+    - _GlithTex_TillingOffset: {r: 2, g: 0.5, b: 0, a: 0.5}
+    - _ImageNoisePanSpeedSecondNoiseOffset: {r: 1, g: 0, b: 0.5, a: 0}
+    - _ImageTexCol: {r: 1, g: 1, b: 1, a: 1}
+    - _ProgressRemapValue_12: {r: 0, g: 0.71, b: 0, a: 0.29}
+    - _ProgressRemapValue_3: {r: 0.9, g: 1, b: 0, a: 0}
+    - _Vector2: {r: 0.1, g: 1, b: 0, a: 0}
